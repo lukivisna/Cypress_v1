@@ -1,0 +1,26 @@
+describe("Todo List", () => {
+  it("Add new Todo",  () => {
+    cy.visit("https://gander.wustl.edu/~wilson/store/yui/docs/app/app-todo.html")
+    cy.get(".todo-input").should("be.visible")
+    cy.get(".todo-input").click()
+        .type("Buy water{enter}")
+        .type("Buy crypto{enter}")
+        .type("Buy groceries{enter}")
+        .type("Doctor appointment{enter}")
+    cy.get(".todo-view").should("be.visible")
+        .contains("Buy water")
+  })
+
+  it("Resolve and Remove Todo",  () => {
+    cy.get(".todo-checkbox").should("be.visible")
+    cy.get(".todo-view").first().trigger("mouseover")
+    cy.clickOn(".todo-remove-icon", 0)
+    cy.get(".todo-view").then((elements) => cy.wrap(elements[0]).contains("Buy crypto"))
+    cy.clickOn(".todo-checkbox", 0)
+    cy.clickOn(".todo-checkbox", 1)
+    cy.clickOn(".todo-checkbox", 2)
+    cy.get(".todo-checkbox").then((elements) => cy.wrap(elements[0]).should("be.checked"))
+    cy.get(".todo-checkbox").then((elements) => cy.wrap(elements[1]).should("be.checked"))
+    cy.get(".todo-checkbox").then((elements) => cy.wrap(elements[2]).should("be.checked"))
+  })
+})

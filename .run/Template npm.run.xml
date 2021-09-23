@@ -1,0 +1,13 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="true" type="js.build_tools.npm">
+    <command value="run" />
+    <scripts>
+      <script value="npm" />
+      <script value="run" />
+      <script value="cypress:open" />
+    </scripts>
+    <node-interpreter value="project" />
+    <envs />
+    <method v="2" />
+  </configuration>
+</component>

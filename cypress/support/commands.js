@@ -13,7 +13,6 @@ Cypress.Commands.add('searchText', (text) => {
     cy.get('.c-search__button').click();
 });
 
-
 Cypress.Commands.add('fill', (id, meno) => {
     cy.get(id).click().type(meno)
 })
@@ -22,7 +21,6 @@ Cypress.Commands.add("fillForm", (config) => {
     //console.log(config, typeof config)
     //config.forEach((value, index) => console.log(value, index))
     config.forEach((item, index) => {
-        console.log(item.field)
         cy.get(item.field).click().type(item.value)
     })
 })
