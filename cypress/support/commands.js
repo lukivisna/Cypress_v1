@@ -1,25 +1,28 @@
-// ***********************************************
-// This example commands.js shows you how to
-// create various custom commands and overwrite
-// existing commands.
-//
-// For more comprehensive examples of custom
-// commands please read more here:
-// https://on.cypress.io/custom-commands
-// ***********************************************
-//
-//
-// -- This is a parent command --
-// Cypress.Commands.add('login', (email, password) => { ... })
-//
-//
-// -- This is a child command --
-// Cypress.Commands.add('drag', { prevSubject: 'element'}, (subject, options) => { ... })
-//
-//
-// -- This is a dual command --
-// Cypress.Commands.add('dismiss', { prevSubject: 'optional'}, (subject, options) => { ... })
-//
-//
-// -- This will overwrite an existing command --
-// Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
+Cypress.Commands.add('homepage', () => cy.visit('http://localhost:1234'));
+
+Cypress.Commands.add('button', (id) => cy.get(`button[id=${id}]`));
+
+Cypress.Commands.add('clickOnFirst', (selector) => cy.get(selector).then((elements) => elements[0].click()));
+
+Cypress.Commands.add('clickOn', (selector, index) => cy.get(selector).then((elements) => elements[index].click()));
+
+Cypress.Commands.add('setUser', (userKey = 'lv') => cy.setCookie('userKey', userKey));
+
+Cypress.Commands.add('searchText', (text) => {
+    cy.get('.c-search__input').type(text);
+    cy.get('.c-search__button').click();
+});
+
+
+Cypress.Commands.add('fill', (id, meno) => {
+    cy.get(id).click().type(meno)
+})
+
+Cypress.Commands.add("fillForm", (config) => {
+    //console.log(config, typeof config)
+    //config.forEach((value, index) => console.log(value, index))
+    config.forEach((item, index) => {
+        console.log(item.field)
+        cy.get(item.field).click().type(item.value)
+    })
+})

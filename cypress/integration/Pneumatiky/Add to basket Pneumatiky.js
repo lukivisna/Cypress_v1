@@ -1,0 +1,20 @@
+describe('Order', () => {
+  it('Tyre options',  () => {
+    cy.visit('https://www.pneumatiky.cz/')
+    cy.get("#frm-tyreSelectBox-form-width").select("185")
+    cy.wait(300)
+    cy.get("#frm-tyreSelectBox-form-profile").select("70")
+    cy.wait(300)
+    cy.get("#frm-tyreSelectBox-form-diameter").select("15")
+    cy.wait(300)
+    cy.get("#frm-tyreSelectBox-form-season").select("Letní")
+    cy.wait(300)
+    cy.get(".tab-box button[type=submit]").click()
+    //cy.contains('Zobrazit').click()
+    //cy.clickOnFirst(".recommended-products__product-list button[name=addToBasket]")
+    cy.contains('Koupit').click()
+    cy.wait(1000)
+    cy.contains("Přejít do košíku").click()
+  })
+})
+
