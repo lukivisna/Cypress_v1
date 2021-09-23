@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7ff983b6-7b9a-496a-aace-7969ee250678" name="Default Changelist" comment="Legito" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1vjK60DlXmdneXbalKyrDC9alia" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="TODO_SCOPE" value="All Places" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/cypress/integration/Pneumatiky" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2021.1.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\lukiv\Documents\GitHub\Cypress_v1\cypress\integration\Pneumatiky" />
+      <recent name="C:\Users\lukiv\Documents\GitHub\Cypress_v1\cypress\integration\1-getting-started" />
+      <recent name="C:\Users\lukiv\Documents\GitHub\Cypress_v1\cypress\integration\Megaknihy" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\lukiv\Documents\GitHub\Cypress_v1\cypress\integration" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="yarn run cypress open" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="run" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7ff983b6-7b9a-496a-aace-7969ee250678" name="Default Changelist" comment="" />
+      <created>1627069880180</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1627069880180</updated>
+      <workItem from="1627069882452" duration="1001000" />
+      <workItem from="1627071014976" duration="1922000" />
+      <workItem from="1627143357067" duration="3029000" />
+      <workItem from="1627165962900" duration="1126000" />
+      <workItem from="1628067351791" duration="5887000" />
+      <workItem from="1630917951216" duration="10888000" />
+      <workItem from="1631482004269" duration="1815000" />
+      <workItem from="1631483977693" duration="53000" />
+      <workItem from="1631524468048" duration="6000" />
+      <workItem from="1631528465799" duration="542000" />
+      <workItem from="1631531012567" duration="5107000" />
+      <workItem from="1631541450429" duration="10000" />
+      <workItem from="1631610982547" duration="121000" />
+      <workItem from="1631611201998" duration="868000" />
+      <workItem from="1631612086717" duration="835000" />
+      <workItem from="1631613047446" duration="1924000" />
+      <workItem from="1631708237803" duration="4218000" />
+      <workItem from="1632125213129" duration="6137000" />
+      <workItem from="1632134170879" duration="11000" />
+      <workItem from="1632197179007" duration="15000" />
+      <workItem from="1632218467579" duration="1118000" />
+      <workItem from="1632220442739" duration="2585000" />
+      <workItem from="1632242926176" duration="928000" />
+      <workItem from="1632261830846" duration="7000" />
+      <workItem from="1632261966261" duration="107000" />
+      <workItem from="1632329812308" duration="603000" />
+      <workItem from="1632385300164" duration="649000" />
+      <workItem from="1632386049134" duration="84000" />
+      <workItem from="1632386470535" duration="7000" />
+      <workItem from="1632399046430" duration="353000" />
+    </task>
+    <task id="LOCAL-00001" summary="Legito">
+      <created>1632399297734</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1632399297734</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Legito">
+      <created>1632399376692</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1632399376692</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Legito" />
+    <option name="LAST_COMMIT_MESSAGE" value="Legito" />
+  </component>
+</project>
